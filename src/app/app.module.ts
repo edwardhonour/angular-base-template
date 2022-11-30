@@ -8,10 +8,18 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { NgxEditorModule } from 'ngx-editor'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { DefaultHeaderComponent } from './components/default-header/default-header.component';
+import { DefaultFooterComponent } from './components/default-footer/default-footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingPageComponent,
+    HomePageComponent,
+    DefaultHeaderComponent,
+    DefaultFooterComponent
   ],
   imports: [
     BrowserModule,
